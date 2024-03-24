@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Sparta Coding Club | Bootstrap Practice</title>
+    <style>
+        .book {
+            width: 100%;
+            height: 250px;
+
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://pbs.twimg.com/media/DeydY4sW4AAZyF0.jpg');
+            background-position: center;
+            background-size: auto;
+
+            color: white;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box {
+            text-align: center;
+            color: black;
+            padding-top: 40px;
+        }
+
+        .box>button {
+            width: 200px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            border-radius: 50px;
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+
+        .box>button:hover {
+            border: 2px solid white;
+        }
+
+        .suggestions {
+            color: gray;
+        }
+
+        .roboto-thin-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 100;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="book">
+        <h1>BTS Fan Book</h1>
+    </div>
+    <div class="box">
+        <p>
+            Nickname: <input type="text" />
+        </p>
+        <p>Fan Message: <input type="text area"></p>
+        <button>Leave a fan message</button>
+        <p class="suggestions">
+            Recent fan messages:
+            <br>
+            "Stress-relieving songs"~ Tim
+            <br>
+            "Melodious Voices" ~ Crazygirl
+            <br>
+            "Really wanted to meet you guys" ~ Sara
+        </p>
+    </div>
+
+</body>
+
+</html>
